@@ -97,5 +97,24 @@ brew install tree
 brew install vbindiff
 brew install zopfli
 
+# Install Nikta's Formulae
+brew install mas
+brew install pyenv
+brew install pyenv-virtualenv
+
+# Install casks
+brew install --cask balenaetcher # flash OS images
+brew install --cask bitwarden # password manager
+brew install --cask calibre # ebook manager
+brew install --cask firefox # browser of choice
+brew install --cask forklift # file manager from Binarynights
+brew install --cask google-drive # documents
+brew install --cask iterm2 # terminal
+brew install --cask virtualbox # vms
+brew install --cask zotero # research citation manager
+
+# Remove outdated versions from the cellar.
+brew cleanup
+
 # Remove outdated versions from the cellar.
 brew cleanup
